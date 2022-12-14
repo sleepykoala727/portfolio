@@ -1,0 +1,57 @@
+.App {
+  color: darkslateblue;
+  flex-wrap: wrap;
+}
+
+h1, h2, h3, p {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-51 {
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  font-size: 2vmin;
+  font-weight: 700;
+  position: relative;
+  touch-action: manipulation;
+  width: 15vw;
+  height: 7vmin;
+}
+
+.ArtItem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.iteminfo {
+  width: 80vw;
+}
+
+.itemheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pageHR {
+  border: 2px solid darkslateblue;
+  border-radius: 5px;
+}
+
+img {
+  border: 10px solid darkslateblue;
+  border-radius: 5px;
+  margin-left: 5vw;
+}
